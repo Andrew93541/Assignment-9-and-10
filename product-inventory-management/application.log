@@ -1,0 +1,17 @@
+2026-11-25 20:53:48,868 - INFO - Processing product check for P101 (qty=2)
+2026-11-25 20:53:48,868 - DEBUG - Checking stock: available_stock=12, requested_quantity=2
+2026-11-25 20:53:48,868 - INFO - Stock check passed: available=12, requested=2
+2026-11-25 20:53:48,868 - DEBUG - Calculated total price: price=1500.0, quantity=2, total=3000.0
+2026-11-25 20:53:48,868 - DEBUG - Applied discount: total=3000.0, discount_percent=10, discounted_amount=2700.0
+2026-11-25 20:53:48,868 - INFO - Order fulfilled for P101 (Wireless Keyboard): final_amount=2700.00, remaining_stock=10
+2026-11-25 20:53:48,868 - INFO - Processing product check for P102 (qty=3)
+2026-11-25 20:53:48,868 - DEBUG - Checking stock: available_stock=6, requested_quantity=3
+2026-11-25 20:53:48,868 - WARNING - Low stock alert after fulfillment: remaining=3
+2026-11-25 20:53:48,868 - INFO - Stock check passed: available=6, requested=3
+2026-11-25 20:53:48,868 - DEBUG - Calculated total price: price=800.0, quantity=3, total=2400.0
+2026-11-25 20:53:48,868 - DEBUG - Applied discount: total=2400.0, discount_percent=5, discounted_amount=2280.0
+2026-11-25 20:53:48,868 - INFO - Order fulfilled for P102 (USB-C Hub): final_amount=2280.00, remaining_stock=3
+2026-11-25 20:53:48,868 - INFO - Processing product check for P103 (qty=5)
+2026-11-25 20:53:48,868 - DEBUG - Checking stock: available_stock=2, requested_quantity=5
+2026-11-25 20:53:48,868 - WARNING - Insufficient stock: available=2, requested=5
+2026-11-25 20:53:48,868 - ERROR - Invalid negative price: -500
